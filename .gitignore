@@ -1,0 +1,11 @@
+*~
+.*.swp
+.*.swo
+build/
+dist/
+*.egg-info/
+.python-version
+.venv/
+.venv-*/
+.vscode/
+
