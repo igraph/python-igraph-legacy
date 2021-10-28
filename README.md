@@ -13,4 +13,3 @@ If you use `python-igraph` as a dependency in any of your own projects, you
 are advised to change the dependency to `igraph` until Sep 1, 2022. New
 releases will _not_ be published under `python-igraph` from Sep 1, 2022
 onwards.
-

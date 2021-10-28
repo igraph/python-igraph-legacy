@@ -9,7 +9,7 @@ if sys.version_info < (3, 6):
 
 ###########################################################################
 
-from setuptools import find_packages, setup, Command, Extension
+from setuptools import setup
 
 VERSION = "0.9.7"
 
@@ -83,7 +83,7 @@ options = dict(
         "Topic :: Scientific/Engineering :: Physics",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
         "Topic :: Software Development :: Libraries :: Python Modules",
-    ]
+    ],
 )
 
 setup(**options)
