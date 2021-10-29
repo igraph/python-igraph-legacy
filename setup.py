@@ -16,9 +16,9 @@ VERSION = "0.9.8"
 description = """Python interface to the igraph high performance graph
 library, primarily aimed at complex network research and analysis.
 
-**This package is deprecated; use the ``igraph`` package instead. This package will
-be kep in sync with ``igraph`` until Sep 1, 2022 and it will receive updates no
-more after Sep 1, 2022.**
+**This package is deprecated; use the igraph package instead. This package will
+be kept in sync with igraph until Sep 1, 2022 and it will not receive any
+updates after Sep 1, 2022.**
 
 Graph plotting functionality is provided by the Cairo library, so make
 sure you install the Python bindings of Cairo if you want to generate
