@@ -1,0 +1,21 @@
+[version]
+current = "0.9.8"
+regex = '''
+  (?P<major>\d+)
+  \.
+  (?P<minor>\d+)
+  \.
+  (?P<patch>\d+)
+  '''
+
+[git]
+message_template = "chore: bumped version to {new_version}"
+tag_template = "{new_version}"
+
+[[file]]
+src = "setup.py"
+search = 'VERSION = "{current_version}"'
+
+[[before_commit]]
+name = "Run pre-commit hooks"
+cmd = "pre-commit run --all-files"
