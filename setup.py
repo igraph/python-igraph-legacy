@@ -33,7 +33,9 @@ options = dict(
     name="python-igraph",
     version=VERSION,
     url="https://igraph.org/python",
-    description="High performance graph data structures and algorithms (legacy package)",
+    description=(
+        "High performance graph data structures and algorithms (legacy package)"
+    ),
     long_description=description,
     license="GNU General Public License (GPL)",
     author="Tamas Nepusz",
