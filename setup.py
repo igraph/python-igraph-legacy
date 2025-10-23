@@ -11,7 +11,7 @@ if sys.version_info < (3, 6):
 
 from setuptools import setup
 
-VERSION = "0.11.9"
+VERSION = "1.0.0"
 
 description = """Python interface to the igraph high performance graph
 library, primarily aimed at complex network research and analysis.
